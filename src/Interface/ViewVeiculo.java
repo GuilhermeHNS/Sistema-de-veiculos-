@@ -585,7 +585,7 @@ public class ViewVeiculo extends javax.swing.JFrame {
             try{
                 inseriu = ctrlVl.insereVeiculo(placa, modelo, cor, ano, marca);
             } catch (SQLException ex) {
-                Logger.getLogger(ViewVeiculo.class.getName()).log(Level.SEVERE, null, ex);
+                
             } catch (ClassNotFoundException ex) {
                 Logger.getLogger(ViewVeiculo.class.getName()).log(Level.SEVERE, null, ex);
             }
